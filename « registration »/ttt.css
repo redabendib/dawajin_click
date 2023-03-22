@@ -1,0 +1,69 @@
+body{
+    background-color: aliceblue;
+}
+
+* {
+    /* Here we set the margin and padding  0 */
+      margin: 0; 
+      
+        padding: 0;
+    }
+      
+    .navbar {
+        display: flex;
+        background-color: black;
+      
+    /* This is used to make the navbar sticky, So that the
+        navbar stays at the top part even if we scroll */
+        position: sticky; 
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+      
+    /*it specifies the mouse cursor to be displayed
+        when it is pointed over the element */
+        cursor: pointer;
+    }
+      
+    .nav-list {
+        width: 50%;
+        display: flex;
+    }
+      
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+      
+    .nav-list li a {
+        text-decoration: white;
+        color: white;
+    }
+      
+    .nav-list li a:hover {
+        color: black;
+    }
+      
+    .rightNav {
+        width: 50%;
+        text-align: right;
+    }
+
+      
+    .background {
+        background: rgba(0, 0, 0, 0.4) ;
+        background-blend-mode: darken;
+        background-size: cover;
+        background-color: rgb(1, 123, 3);
+    }
+    .circle1{
+        height: 100px;
+        width: 100px;
+        border: 20px solid green;
+        border-radius: 100px;
+        position: relative;
+    }
+        
+
+
+ 
